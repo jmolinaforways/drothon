@@ -207,6 +207,21 @@ img {
   color: var(--gold);
 }
 
+.nav__phone {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  border: 1px solid rgba(201, 169, 110, 0.4);
+  padding: 0.4rem 0.9rem;
+  transition: background var(--transition), color var(--transition);
+}
+
+.nav__phone:hover {
+  background: var(--gold);
+  color: var(--bg);
+}
+
 .nav__hamburger {
   display: none;
   flex-direction: column;
@@ -669,6 +684,67 @@ img {
 
 .contact__map:hover {
   filter: grayscale(0.5) brightness(0.85);
+}
+
+/* Phone block */
+.contact__phone {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.contact__phone-num {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--white);
+  letter-spacing: 0.04em;
+  margin-bottom: 1.25rem;
+}
+
+.contact__phone-btns {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.phone-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid;
+  transition: background var(--transition), color var(--transition);
+  cursor: pointer;
+}
+
+.phone-btn--call {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.phone-btn--call:hover {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+.phone-btn--whatsapp {
+  border-color: #25d366;
+  color: #25d366;
+}
+
+.phone-btn--whatsapp:hover {
+  background: #25d366;
+  color: #0a0a0a;
+}
+
+.mobile-menu__link--phone {
+  color: var(--gold);
+  font-size: 1.4rem;
 }
 
 /* ─── CTA BANNER ────────────────────────────────────────────── */
