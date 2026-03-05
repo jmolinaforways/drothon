@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Othon · Boutique Dental</title>
+  <meta name="description" content="Boutique Dental de élite en Santo Domingo. Especialistas en implantes dentales y estética dental. Dr. Othon — Plaza Lía, Santo Domingo." />
+  <meta property="og:title" content="Dr. Othon · Boutique Dental" />
+  <meta property="og:description" content="Implantes dentales y estética de alta gama en Santo Domingo." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <span class="nav__logo-dr">Dr.</span> Othon
+    </div>
+    <ul class="nav__links">
+      <li><a href="#servicios" class="nav__link">Servicios</a></li>
+      <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+      <li><a href="#contacto" class="nav__link">Contacto</a></li>
+      <li>
+        <a href="https://www.instagram.com/drothon_boutiquedental" target="_blank" rel="noopener" class="nav__ig" id="nav-instagram-link" aria-label="Instagram Dr. Othon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </li>
+    </ul>
+    <button class="nav__hamburger" id="nav-hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#servicios" class="mobile-menu__link" id="mobile-link-1">Servicios</a></li>
+      <li><a href="#nosotros" class="mobile-menu__link" id="mobile-link-2">Nosotros</a></li>
+      <li><a href="#contacto" class="mobile-menu__link" id="mobile-link-3">Contacto</a></li>
+      <li><a href="https://www.instagram.com/drothon_boutiquedental" target="_blank" rel="noopener" class="mobile-menu__link" id="mobile-link-ig">Instagram</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <img src="hero.png" alt="Boutique Dental Dr. Othon" class="hero__img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__tag reveal">Boutique Dental · Santo Domingo</p>
+      <h1 class="hero__title reveal">
+        Tu sonrisa,<br /><em>obra de arte.</em>
+      </h1>
+      <p class="hero__sub reveal">Diseño dental de élite con tecnología de vanguardia.<br />Especialistas en implantes dentales.</p>
+      <a href="#contacto" class="btn reveal" id="hero-cta-btn">Agenda tu consulta</a>
+    </div>
+    <div class="hero__scroll" id="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider">
+    <span>✦</span>
+  </div>
+
+  <!-- SERVICIOS -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <p class="section-tag reveal">Lo que hacemos</p>
+      <h2 class="section-title reveal">Nuestros servicios</h2>
+
+      <div class="services__grid">
+
+        <article class="service-card service-card--featured reveal" id="service-implants">
+          <div class="service-card__num">01</div>
+          <div class="service-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" fill="none">
+              <path d="M32 6C24 6 18 12 18 20c0 5 2 9 5 12l2 20h14l2-20c3-3 5-7 5-12 0-8-6-14-14-14z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <line x1="32" y1="20" x2="32" y2="52" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Implantes Dentales</h3>
+          <p class="service-card__desc">Reemplaza dientes perdidos con soluciones permanentes de titanio de grado médico. Resultados naturales, función completa y una sonrisa que dura toda la vida.</p>
+          <span class="service-card__badge">Servicio estrella</span>
+        </article>
+
+        <article class="service-card reveal" id="service-estetica">
+          <div class="service-card__num">02</div>
+          <div class="service-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M12 2a5 5 0 0 1 5 5c0 3-2 5-3 6l-1 9H11l-1-9C9 12 7 10 7 7a5 5 0 0 1 5-5z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Estética Dental</h3>
+          <p class="service-card__desc">Carillas de porcelana, blanqueamiento profesional y diseño de sonrisa personalizado. Cada detalle pensado para ti.</p>
+        </article>
+
+        <article class="service-card reveal" id="service-ortodoncia">
+          <div class="service-card__num">03</div>
+          <div class="service-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <rect x="3" y="8" width="18" height="8" rx="4"/>
+              <line x1="8" y1="8" x2="8" y2="16"/>
+              <line x1="12" y1="8" x2="12" y2="16"/>
+              <line x1="16" y1="8" x2="16" y2="16"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Ortodoncia</h3>
+          <p class="service-card__desc">Alineadores invisibles y brackets de última generación. Discreción, comodidad y resultados precisos.</p>
+        </article>
+
+        <article class="service-card reveal" id="service-preventiva">
+          <div class="service-card__num">04</div>
+          <div class="service-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M9 12l2 2 4-4"/>
+              <path d="M12 2C6.5 2 2 6.5 2 12c0 5.5 4.5 10 10 10s10-4.5 10-10S17.5 2 12 2z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Salud & Prevención</h3>
+          <p class="service-card__desc">Limpiezas profesionales, diagnósticos personalizados y planes de mantenimiento para una salud oral óptima.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="about" id="nosotros">
+    <div class="container about__inner">
+      <div class="about__text">
+        <p class="section-tag reveal">Nuestra filosofía</p>
+        <h2 class="section-title reveal">Boutique dental,<br /><em>experiencia única.</em></h2>
+        <p class="about__body reveal">
+          En Dr. Othon Boutique Dental creemos que cada sonrisa merece atención exclusiva. No somos una clínica masiva — somos un espacio íntimo donde la técnica de vanguardia se fusiona con una atención verdaderamente personalizada.
+        </p>
+        <p class="about__body reveal">
+          Nuestro enfoque boutique significa que cada paciente recibe tiempo, cuidado y un plan de tratamiento diseñado a su medida.
+        </p>
+        <div class="about__stats reveal">
+          <div class="stat">
+            <span class="stat__num">+500</span>
+            <span class="stat__label">Implantes realizados</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Compromiso contigo</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__visual reveal">
+        <div class="about__card">
+          <div class="about__card-inner">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 64 64" fill="none">
+              <path d="M32 8C22 8 14 16 14 26c0 7 3 13 8 17l3 13h14l3-13c5-4 8-10 8-17 0-10-8-18-18-18z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              <line x1="32" y1="26" x2="32" y2="56" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 4"/>
+              <circle cx="32" cy="26" r="4" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            <p class="about__card-text">Implantes de titanio de grado médico</p>
+          </div>
+          <div class="about__card-inner">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M20 32 Q32 20 44 32 Q32 44 20 32z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            </svg>
+            <p class="about__card-text">Tecnología de diagnóstico 3D</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="container contact__inner">
+      <div class="contact__info">
+        <p class="section-tag reveal">Visítanos</p>
+        <h2 class="section-title reveal">¿Listo para tu<br /><em>nueva sonrisa?</em></h2>
+        <div class="contact__details reveal">
+          <div class="contact__item" id="contact-address">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Dirección</strong>
+              <p>Plaza Lía, C. Rafael Augusto Sánchez,<br />Santo Domingo 10127</p>
+            </div>
+          </div>
+          <div class="contact__item" id="contact-ig">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            <div>
+              <strong>Instagram</strong>
+              <a href="https://www.instagram.com/drothon_boutiquedental" target="_blank" rel="noopener" id="contact-instagram-link">@drothon_boutiquedental</a>
+            </div>
+          </div>
+          <div class="contact__item" id="contact-hours">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <strong>Horario</strong>
+              <p>Lun – Vie: 8:00 AM – 6:00 PM<br />Sáb: 9:00 AM – 2:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact__map reveal" id="contact-map">
+        <iframe
+          title="Ubicación Dr. Othon Boutique Dental"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2!2d-69.9363!3d18.4652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f7b6f5a1a1%3A0x0!2sPlaza+L%C3%ADa%2C+C.+Rafael+Augusto+S%C3%A1nchez%2C+Santo+Domingo!5e0!3m2!1ses!2sdo!4v1700000000000!5m2!1ses!2sdo"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <p class="cta-banner__text reveal">Especialistas en <strong>implantes dentales</strong> en Santo Domingo</p>
+      <a href="https://www.instagram.com/drothon_boutiquedental" target="_blank" rel="noopener" class="btn btn--light reveal" id="cta-banner-btn">Contáctanos en Instagram</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">Dr. Othon <span>Boutique Dental</span></div>
+      <p class="footer__copy">© 2025 Dr. Othon Boutique Dental · Santo Domingo, República Dominicana</p>
+      <a href="https://www.instagram.com/drothon_boutiquedental" target="_blank" rel="noopener" class="footer__ig" id="footer-instagram-link" aria-label="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
